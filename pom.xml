@@ -13,14 +13,21 @@
 	</properties>
 
 	<dependencies>
-	
+
+		<!-- cdi api -->
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<version>2.0.SP1</version>
+		</dependency>
 		<!-- palestyn-apis -->
 		<dependency>
 			<groupId>palestyn</groupId>
 			<artifactId>palestyn-apis</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-				<!-- jndi -->
+
+		<!-- jndi -->
 		<dependency>
 			<groupId>simple-jndi</groupId>
 			<artifactId>simple-jndi</artifactId>
@@ -33,8 +40,8 @@
 			<artifactId>HikariCP</artifactId>
 			<version>3.3.1</version>
 		</dependency>
-		
-				<!-- hibernate -->
+
+		<!-- hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -47,20 +54,13 @@
 			</exclusions>
 		</dependency>
 
-		<!-- vavr -->
-		<dependency>
-			<groupId>io.vavr</groupId>
-			<artifactId>vavr</artifactId>
-			<version>0.10.2</version>
-		</dependency>
-
 		<!-- logging -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.2.3</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
